@@ -1,0 +1,19 @@
+{
+  "manifest_version": 2,
+
+  "name": "Lyricryptic",
+  "description": "ONLY MY MUSIC UNDERSTANDS ME",
+  "version": "0.1.0",
+
+  "permissions": [
+    "http://xorph.com/lyricryptic/"
+  ],
+
+  "omnibox": {
+    "keyword": "lyric"
+  },
+  "background": {
+    "persistent": false,
+    "scripts": ["jquery-1.9.0.min.js", "background.js"]
+  }
+}
